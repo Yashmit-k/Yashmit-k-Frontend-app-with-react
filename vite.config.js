@@ -8,12 +8,20 @@ export default defineConfig({
     host: '0.0.0.0',
     port: process.env.PORT || 10000,
     cors: true,
-    allowedHosts: 'all'
+    allowedHosts: [
+      'yashmit-k-frontend-app-with-react.onrender.com',
+      'localhost',
+      '.onrender.com'
+    ]
   },
   preview: {
     host: '0.0.0.0',
     port: process.env.PORT || 10000,
     cors: true,
-    allowedHosts: 'all'
+    allowedHosts: [
+      'yashmit-k-frontend-app-with-react.onrender.com',
+      'localhost',
+      '.onrender.com'
+    ]
   }
 })
